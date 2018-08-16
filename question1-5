@@ -1,0 +1,13 @@
+# Assignment_9.11438
+DATA-SCIENCE-ASSIGNMENT-PANDAS-2
+2.​ Problem Statement
+
+Read the dataset from the below link https://raw.githubusercontent.com/guipsamora/pandas_exercises/master/06_Stats/US_Baby_Names/US_Baby_Names_right.csv
+
+Questions:
+
+Delete unnamed columns
+Show the distribution of male and female
+Show the top 5 most preferred names
+What is the median name occurence in the dataset
+Distribution of male and female born count by states

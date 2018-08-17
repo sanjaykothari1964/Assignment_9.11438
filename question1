@@ -6,3 +6,4 @@ df_Baby_Names.head()
 df_Baby_Names.shape
 #Question 1. Deletedf_Baby unnamed columns
 df_Baby_Names.drop(df_Baby_Names.columns[df_Baby_Names.columns.str.contains('unnamed',case = False)],axis = 1,inplace = True)
+df_Baby_Names.head()

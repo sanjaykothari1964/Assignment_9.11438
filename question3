@@ -9,3 +9,6 @@ df_Baby_Names.drop(df_Baby_Names.columns[df_Baby_Names.columns.str.contains('unn
 df_Baby_Names.head()
 #Question 2. Show the distribution of male and female
 df_Baby_Names.groupby('Gender')['Gender'].count()
+#Question 3. Show the top 5 most preferred names
+df_name_count = df_Baby_Names.groupby('Name')['Name'].count()
+df_name_count.sort_values(ascending=False).head()

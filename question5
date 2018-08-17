@@ -14,3 +14,5 @@ df_name_count = df_Baby_Names.groupby('Name')['Name'].count()
 df_name_count.sort_values(ascending=False).head()
 #Question 4. What is the median name occurence in the dataset
 df_Baby_Names.groupby('Name')['Name','Count'].median()
+#Question 5. Distribution of male and female born count by states
+df_Baby_Names.groupby(['State','Year','Gender'])['Gender'].count()

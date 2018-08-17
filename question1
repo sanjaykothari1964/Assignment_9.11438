@@ -1,0 +1,8 @@
+#import Pandas library
+import pandas as pd
+url = 'https://raw.githubusercontent.com/guipsamora/pandas_exercises/master/06_Stats/US_Baby_Names/US_Baby_Names_right.csv'
+df_Baby_Names = pd.read_csv(url)
+df_Baby_Names.head()
+df_Baby_Names.shape
+#Question 1. Deletedf_Baby unnamed columns
+df_Baby_Names.drop(df_Baby_Names.columns[df_Baby_Names.columns.str.contains('unnamed',case = False)],axis = 1,inplace = True)
